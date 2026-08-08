@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My HTML-Only Portfolio</title>
+</head>
+<body>
+
+    <!-- Main Navigation Layout -->
+    <table width="100%" bgcolor="#f3f4f6" cellpadding="15">
+        <tr>
+            <td>
+                <strong>Alex Doe</strong> | Front-End Developer
+            </td>
+            <td align="right">
+                <a href="#about">About</a> &nbsp;&nbsp;
+                <a href="#projects">Projects</a> &nbsp;&nbsp;
+                <a href="#skills">Skills</a> &nbsp;&nbsp;
+                <a href="#contact">Contact</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- Hero Introduction Section -->
+    <blockquote id="about">
+        <br><br>
+        <h1>Welcome to My Professional Portfolio</h1>
+        <h3>Building stable web solutions with clean, structured code.</h3>
+        <p>I am a developer focused on technical execution, layout accessibility, and performance optimization.</p>
+        <p><a href="#contact"><b>Hire Me &rarr;</b></a></p>
+        <br><br>
+    </blockquote>
+
+    <hr size="1" color="#cccccc">
+
+    <!-- Projects Portfolio Layout (Using HTML Tables) -->
+    <h2 id="projects" align="center">Recent Work</h2>
+    <table width="90%" align="center" border="1" cellpadding="15" cellspacing="0">
+        <tr bgcolor="#f9fafb">
+            <th width="33%">Project One: E-Commerce</th>
+            <th width="33%">Project Two: Dashboard</th>
+            <th width="33%">Project Three: Task App</th>
+        </tr>
+        <tr valign="top">
+            <td>
+                <p><img src="https://placeholder.com" alt="Store project snapshot" width="100%"></p>
+                <p>An online storefront architecture implementing persistent cart caching mechanisms and clean checkout flows.</p>
+                <p><a href="https://github.com" target="_blank">Source Code</a></p>
+            </td>
+            <td>
+                <p><img src="https://placeholder.com" alt="Metrics project snapshot" width="100%"></p>
+                <p>A back-office administration panel showing database stream calculations and live operational health checks.</p>
+                <p><a href="https://github.com" target="_blank">Source Code</a></p>
+            </td>
+            <td>
+                <p><img src="https://placeholder.com" alt="Organiser project snapshot" width="100%"></p>
+                <p>A productivity system managing individual sprint workflows via custom local file storage parsers.</p>
+                <p><a href="https://github.com" target="_blank">Source Code</a></p>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr size="1" color="#cccccc">
+
+    <!-- Technical Skills Section -->
+    <h2 id="skills" align="center">Technical Skillset</h2>
+    <table align="center" cellpadding="5">
+        <tr>
+            <td><b>Core Languages:</b></td>
+            <td>HTML5, XHTML, XML, JavaScript</td>
+        </tr>
+        <tr>
+            <td><b>Database Systems:</b></td>
+            <td>MySQL, PostgreSQL, JSON schemas</td>
+        </tr>
+        <tr>
+            <td><b>Developer Tools:</b></td>
+            <td>Git, Command Line, Build Scripts</td>
+        </tr>
+    </table>
+
+    <br><br>
+    <hr size="1" color="#cccccc">
+
+    <!-- Contact Form Section -->
+    <h2 id="contact" align="center">Get In Touch</h2>
+    <table align="center" bgcolor="#f9fafb" border="1" cellpadding="20" cellspacing="0">
+        <tr>
+            <td>
+                <form action="#" method="POST">
+                    <p>
+                        <label for="user_name">Your Name:</label><br>
+                        <input type="text" id="user_name" name="user_name" required size="40">
+                    </p>
+                    <p>
+                        <label for="user_email">Your Email Address:</label><br>
+                        <input type="email" id="user_email" name="user_email" required size="40">
+                    </p>
+                    <p>
+                        <label for="user_msg">Project Description:</label><br>
+                        <textarea id="user_msg" name="user_msg" rows="6" cols="38" required></textarea>
+                    </p>
+                    <p align="center">
+                        <button type="submit">Submit Form Information</button>
+                    </p>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- Footer Area -->
+    <table width="100%" bgcolor="#1f2937" cellpadding="20">
+        <tr>
+            <td align="center">
+                <font color="#ffffff">&copy; 2026 Alex Doe. Standard semantic HTML build archive.</font>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
